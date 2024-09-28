@@ -1,0 +1,216 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+header h2 {
+    display: inline;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+
+.hero {
+    background-image: url(carrr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #556373;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4CAF50;
+}
+
+
+#services {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.service-box {
+    flex: 1 1 30%;
+    margin: 15px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/*.service-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.service-box h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #555;
+}*/
+
+
+.rental-section {
+    background-image:url(gaadi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: rgb(99 107 118);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+}
+
+.input-section {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 11px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.output-section {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer .socials {
+    list-style: none;
+    padding: 10px;
+}
+
+footer .socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .socials li a:hover {
+    text-decoration: underline;
+}
